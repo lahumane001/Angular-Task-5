@@ -1,0 +1,42 @@
+
+img{
+    background-position: cover;
+    width: 100%;
+}
+h2{
+    font-weight: 700;
+    font-size: 46px;
+    position: absolute;
+    top: 52%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    color: rgb(220, 82, 13);
+    box-shadow: 13px 13px 32px 1px #a8a4a4;
+}
+.box{
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(220, 82, 13);
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    box-shadow: 13px 13px 32px 1px #a8a4a4;
+}
+
+@media all and (max-width:700px) {
+    h2{
+        position: absolute;
+        left: 123px;
+        color: rgb(241, 80, 68);
+        box-shadow: 13px 13px 32px 1px #000000;
+    }   
+}
+@media all and (max-width:500px) {
+    h2{
+        position: absolute;
+        left: 2px;
+        color: rgb(241, 80, 68);
+        box-shadow: 13px 13px 32px 1px #000000;
+    }   
+}

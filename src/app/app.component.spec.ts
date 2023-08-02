@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Angular-Task5'`, () => {
+  it(`should have as title 'backup-6'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Angular-Task5');
+    expect(app.title).toEqual('backup-6');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('Angular-Task5 app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('backup-6 app is running!');
   });
 });
